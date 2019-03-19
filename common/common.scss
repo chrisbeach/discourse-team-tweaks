@@ -1,7 +1,6 @@
 body.category-moderation header.d-header,
-body.category-team header.d-header,
-body.category-staff header.d-header {
-  background-color: #f9e9d7;
+body.category-team header.d-header {
+    background-color: #f9e9d7;
 }
 
 /* Team Whispers */
@@ -13,16 +12,18 @@ body.category-staff header.d-header {
   content: " as Whisper";
 }
 .topic-post.whisper nav.post-controls button.reply {
-  max-width: 180px;
+    max-width: 180px;
 }
 
 .topic-post.whisper button.create {
-  white-space: nowrap;
+    white-space: nowrap;
 }
-.topic-post.whisper, #reply-control.composing-whisper {
+.topic-post.whisper .topic-body, .topic-post.whisper .topic-avatar, .topic-post.whisper .post-menu-area, 
+#reply-control.composing-whisper {
   background-color: #f7edea;
+  background: #f7edea;
+  border-color: #986;
 }
-
 
 /* Moderator Styling */
 .post-stream .moderator a.main-avatar img {
@@ -32,13 +33,14 @@ body.category-staff header.d-header {
 .post-stream .moderator .names, .post-stream .moderator .topic-body .names span a {
   color: #880;
 }
-.post-stream .moderator .topic-body {
-  background-color: #ffffea;
-}
+
 .post-stream .moderator span.user-title::after {
-  content: ", Moderator";
+  content: "Moderator";
+  font-weight: bold;
+  background-color: #ffffca;
+  color: #880;
 }
 
 ul.menu-links li a.keyboard-shortcuts-link {
-  display: none;
+    display: none;
 }

@@ -1,0 +1,14 @@
+.topic-post.whisper .topic-body {
+  margin: 0 -10px 0 -10px; padding: 10px;
+}
+.post-stream .moderator article, .post-stream .topic-post.moderator .post-menu-area {
+  background-color: #ffffea;
+  background: #ffffea;
+  border-color: #880;
+}
+
+.post-stream .whisper article, .post-stream .topic-post.whisper .post-menu-area {
+  background-color: #f7edea;
+  background: #f7edea;
+  border-color: #986;
+}
