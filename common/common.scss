@@ -22,11 +22,7 @@ body.category-team header.d-header {
 
 .topic-post.whisper button.create {
   white-space: nowrap;
-}
-.topic-post.whisper .topic-body {
-  background-color: rgba(250,186,107,0.1) !important;
-  background: rgba(250,186,107,0.1) !important;
-  border-color: #986;
+  max-width: max-content;
 }
 
 #reply-control.composing-whisper {
@@ -37,13 +33,6 @@ body.category-team header.d-header {
 /* Moderator Styling */
 .moderator .regular>.cooked {
   background: none;
-}
-
-.post-stream .moderator .topic-body,
-.post-stream .moderator .topic-avatar {
-  background-color: rgba(255,255,0,0.15);
-  background: rgba(255,255,0,0.15);
-  border-color: #880;
 }
 
 .post-stream .moderator a.main-avatar img {
