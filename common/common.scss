@@ -36,8 +36,13 @@ body.category-team header.d-header {
 
 /* Moderator Styling */
 .moderator .regular>.cooked {
-  background-color: rgba(200,200,0,0.15);
-  background: rgba(200,200,0,0.15);
+  background: none;
+}
+
+.post-stream .moderator .topic-body,
+.post-stream .moderator .topic-avatar {
+  background-color: rgba(255,255,0,0.15);
+  background: rgba(255,255,0,0.15);
   border-color: #880;
 }
 
