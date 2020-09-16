@@ -44,9 +44,13 @@ body.category-team header.d-header {
 }
 
 .post-stream .moderator span.user-title::after {
-  content: "Moderator";
+  content: " Moderator";
   font-weight: bold;
   color: #880;
+}
+
+.post-stream .moderator article[data-user-id="1"] span.user-title::after {
+  content: " Admin";
 }
 
 ul.menu-links li a.keyboard-shortcuts-link {
