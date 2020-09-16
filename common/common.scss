@@ -43,14 +43,28 @@ body.category-team header.d-header {
   color: #880;
 }
 
+.post-stream .moderator span.user-title .user-group {
+    display: none;
+}
+
 .post-stream .moderator span.user-title::after {
-  content: " Moderator";
-  font-weight: bold;
+  content: "(Moderator)";
+  font-weight: normal;
   color: #880;
 }
 
+.post-stream .moderator article[data-user-id="1"] .names, 
+.post-stream .moderator article[data-user-id="1"] .topic-body .names span a,
 .post-stream .moderator article[data-user-id="1"] span.user-title::after {
-  content: " Admin";
+  color: #449;
+}
+
+.post-stream .moderator article[data-user-id="1"] span.user-title::after {
+  content: "(Admin)";
+}
+.post-stream .moderator article[data-user-id="1"] a.main-avatar img {
+  border: 2px inset #99f;
+  box-shadow: 0px 0px 2px #44a;
 }
 
 ul.menu-links li a.keyboard-shortcuts-link {
