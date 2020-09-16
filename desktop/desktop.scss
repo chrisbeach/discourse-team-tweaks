@@ -15,6 +15,15 @@
   background: rgba(255,255,0,0.15);
   border-color: #880;
 }
+
+.post-stream .moderator article[data-user-id="1"] .topic-body,
+.post-stream .moderator article[data-user-id="1"] .topic-avatar {
+  background-color: rgba(90,120,255,0.15);
+  background: rgba(90,120,255,0.15);
+  border-color: #348;
+}
+
+
 .topic-post.whisper .topic-body {
   background-color: rgba(250,186,107,0.1) !important;
   background: rgba(250,186,107,0.1) !important;
